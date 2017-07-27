@@ -1,0 +1,133 @@
+
+body {
+  padding: 20px 0;
+  font: 300 14px "Lato", sans-serif;
+  color: #666756;
+  background: #FFF;
+}
+
+hr {
+  border-top: 5px solid #bbb;
+}
+
+
+.text-thin {
+  font-weight: 100;
+}
+
+.profile {
+  margin-top: 10px;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.profile-name {
+  margin: 0;
+  font-size: 4.286em;
+}
+
+.profile-job {
+  margin: 5px;
+  font-size: 1.429em;
+}
+
+
+.project-featured {
+  color: #bbb;
+}
+
+.project {
+  text-align: center;
+}
+
+.project-title {
+  color: #666756;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.project-link {
+  font-size: 1.143em;
+  color: #666756;
+}
+
+
+
+
+@media only screen and (max-width: 992px) {
+  .profile {
+    text-align: center;
+  }
+
+  .profile-avatar {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .profile {
+    text-align: center;
+  }
+
+  .profile-avatar {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .profile {
+    text-align: center;
+  }
+
+  .profile-avatar {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .profile-name {
+    font-size: 2.857em;
+  }
+}
+
+
+
+@media only screen and (max-width: 480px) {
+  .profile {
+    text-align: center;
+  }
+
+  .profile-avatar {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .profile-name {
+    font-size: 2.857em;
+  }
+}
+
+
+@media only screen and (max-width: 360px) {
+  .profile {
+    text-align: center;
+  }
+
+  .profile-avatar {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .profile-name {
+    font-size: 2.857em;
+  }
+}
